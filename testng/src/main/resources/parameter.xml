@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="param">
+    <test name="param1">
+        <parameter name="name" value="snail"></parameter>
+        <parameter name="age" value="18"></parameter>
+        <classes>
+
+        <class name="com.dwd.snail.testng.canshuhua.ParamterTest"/>
+        </classes>
+    </test>
+
+</suite>

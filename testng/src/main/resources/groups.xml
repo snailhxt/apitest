@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="group">
+    <test name="runAll">
+        <classes>
+            <class name="com.dwd.snail.testng.group.GroupsOnClass1"/>
+            <class name="com.dwd.snail.testng.group.GroupsOnClass2"/>
+            <class name="com.dwd.snail.testng.group.GroupsOnClass3"/>
+        </classes>
+    </test>
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <include name="stu"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.dwd.snail.testng.group.GroupsOnClass1"/>
+            <class name="com.dwd.snail.testng.group.GroupsOnClass2"/>
+            <class name="com.dwd.snail.testng.group.GroupsOnClass3"/>
+        </classes>
+    </test>
+</suite>

@@ -5,15 +5,15 @@ import org.testng.annotations.Test;
 /**
  * @ProjectName: apitest
  * @Package: com.dwd.snail.testng.suite
- * @ClassName: LoginTest
+ * @ClassName: PayTest
  * @Author: dwd
  * @Description:
- * @Date: 2019/12/6 2:38 下午
+ * @Date: 2019/12/6 2:49 下午
  * @Version: 1.0
  */
-public class LoginTest {
+public class PayTest {
     @Test
-  public void loginTaoBao(){
-      System.out.println("淘宝登录成功");
-  }
+    public void payTest(){
+        System.out.println("支付宝支付成功");
+    }
 }

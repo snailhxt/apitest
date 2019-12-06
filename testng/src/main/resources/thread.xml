@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="thread" parallel="methods" thread-count="2">
+    <test name="thread1">
+        <classes>
+            <class name="com.dwd.snail.testng.mutithread.MultiThreadOnXml"/>
+
+        </classes>
+    </test>
+
+</suite>
