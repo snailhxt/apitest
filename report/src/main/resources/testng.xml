@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="test">
+<test name="login">
+    <classes>
+        <class name="com.dwd.snail.report.demotest.test"/>
+    </classes>
+</test>
+<listeners>
+    <listener class-name="com.dwd.snail.report.demotest.ExtentTestNGIReporterListener"></listener>
+</listeners>
+</suite>
