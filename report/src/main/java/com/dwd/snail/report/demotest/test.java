@@ -2,6 +2,7 @@ package com.dwd.snail.report.demotest;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 /**
@@ -13,6 +14,7 @@ import org.testng.annotations.Test;
  * @Date: 2019/12/10 1:52 下午
  * @Version: 1.0
  */
+//@Listeners({SnailTestListenerAdapter.class})
 public class test {
     @Test
     public void test1(){
