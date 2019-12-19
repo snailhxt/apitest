@@ -1,0 +1,18 @@
+java -jar /Users/dwd/Desktop/study/apitest/moco-runner-0.12.0-standalone.jar  http -p 8888 -c  demo.json
+
+
+java -jar /Users/dwd/Desktop/study/apitest/moco-runner-0.12.0-standalone.jar  http -p 8888 -c  startupGet.json
+
+
+java -jar /Users/dwd/Desktop/study/apitest/moco-runner-0.12.0-standalone.jar  http -p 8888 -c  startupPost.json
+
+
+java -jar /Users/dwd/Desktop/study/apitest/moco-runner-0.12.0-standalone.jar  http -p 8888 -c  startupWithCookies.json
+
+
+
+java -jar /Users/dwd/Desktop/study/apitest/moco-runner-0.12.0-standalone.jar  http -p 8888 -c  startupWithHeader.json
+
+
+
+java -jar /Users/dwd/Desktop/study/apitest/moco-runner-0.12.0-standalone.jar  http -p 8888 -c  startupWithRediractTo.json

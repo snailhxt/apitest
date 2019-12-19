@@ -1,0 +1,25 @@
+[
+  {
+    "description":"带redirct信息的post请求",
+    "request":{
+      "uri":"/rediract"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description":"带redirct信息的重定向到自己的网页",
+    "request":{
+      "uri":"/rediract/topath"
+    },
+    "redirectTo": "/rediract/new"
+  },
+  {
+    "description":"被重定向到的页面",
+    "request":{
+      "uri":"/rediract/new"
+    },
+    "response": {
+      "text": "重定向到/rediract/new"
+    }
+  }
+]

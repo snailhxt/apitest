@@ -1,0 +1,38 @@
+[
+  {
+    "description":"带cookies信息的get请求",
+    "request":{
+      "uri":"/get/cookies",
+      "method": "get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":
+    {
+      "text":"带cookies的get请求"
+    }
+  },
+  {
+    "description":"带cookies信息的post请求",
+    "request":{
+      "uri":"/post/cookies",
+      "method": "post",
+      "cookies":{
+        "login":"true"
+      },
+      "json": {
+        "name": "huhansan",
+        "aihao": "sing"
+      }
+    },
+    "response":
+    {
+      "status": 200,
+      "json":{
+        "name": "huhansan",
+        "aihao": "sing"
+      }
+    }
+  }
+]

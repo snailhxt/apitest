@@ -1,0 +1,27 @@
+[
+  {
+    "description":"带headers信息的post请求",
+    "request":{
+      "uri":"/post/headers",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "cookies":{
+        "login":"true"
+      },
+      "json": {
+        "name": "huhansan",
+        "aihao": "sing"
+      }
+    },
+    "response":
+    {
+      "status": 200,
+      "json":{
+        "name": "huhansan",
+        "aihao": "sing"
+      }
+    }
+  }
+]
